@@ -9,13 +9,13 @@ import {
 const Socials = () => {
   return (
     <div className="flex items-center gap-x-5 text-lg">
-      <Link href={''} className="hover:text-accent transition-all duration-300">
-        <RiTwitterLine/>
+      <Link href='https://www.twitter.com/arroyomatias19' target="_blank" className="hover:text-accent transition-all duration-300">
+       <RiTwitterLine/>
       </Link>
-      <Link href={''} className="hover:text-accent transition-all duration-300">
+      <Link href='https://www.linkedin.com/in/matias-arroyo19' target="_blank" className="hover:text-accent transition-all duration-300">
         <RiLinkedinLine/>
       </Link>
-      <Link href={''} className="hover:text-accent transition-all duration-300">
+      <Link href='https://wa.me/543777516220' target="_blank" className="hover:text-accent transition-all duration-300">
         <RiWhatsappLine/>
       </Link>
     </div>
