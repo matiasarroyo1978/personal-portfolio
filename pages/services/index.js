@@ -12,25 +12,29 @@ const Services = () => {
       <Circles />
       <div className='container mx-auto'>
         <div className='flex flex-col xl:flex-row gap-x-8'>
-          <div className='text-center flex xl:w-[30vm] flex-col lg:text-left mb-4 xl:mb-0 '>
-            <motion.h2 
+          <div className='text-center flex xl:w-[30vm] flex-col lg:text-left mb-4 xl:mb-0'>
+            <motion.h3 
               variants={fadeIn('up', 0.2)} 
               initial='hidden' 
               animate='show' 
               exit='hidden' 
-              className='h2 xl:mt-8'>
+              className='font-bold text-xl xl:mt-8'>
               My Services 
               <span className='text-accent'>
                 .
               </span> 
-            </motion.h2>
+            </motion.h3>
             <motion.p 
                variants={fadeIn('up', 0.4)} 
                initial='hidden' 
                animate='show' 
                exit='hidden' 
-              className='mb-4 max-w-[400px] mx-auto lg:mx-0 '>
-              lorem ipsur  
+              className='mb-4 max-w-[450px] mx-auto lg:mx-0 text-md'>
+                I specialize in building responsive and user-friendly websites using the latest technologies such as HTML5, CSS3, React, Next.js, and JavaScript. Whether you need a simple static website or a complex web application.
+                With expertise in Node.js and Express, I can develop server-side applications and RESTful APIs.
+                I have hands-on experience in Python, which allows me to create powerful and versatile web applications. Whether it's using Django or Flask, I can develop feature-rich applications and leverage Python's extensive libraries and frameworks.
+                I can integrate various databases into your web applications, including MySQL, PostgreSQL, MongoDB, or SQLite. Proper database design and implementation ensure data integrity and optimal performance for your applications.
+                As a developer, I believe effective communication and collaboration are vital for successful project outcomes. I am always open to feedback, and I strive to understand your specific requirements to deliver the best results.
             </motion.p>
           </div>
           <motion.div 
