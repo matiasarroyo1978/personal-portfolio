@@ -1,8 +1,8 @@
 'use client'
 
 import React,{useState} from "react";
-import { FaHtml5, FaCss3, FaJs, FaReact, FaWordpress, FaFigma} from 'react-icons/fa'
-import { SiFramer, SiNextdotjs, SiAdobexd , SiAdobephotoshop } from 'react-icons/si'
+import { FaHtml5, FaCss3, FaJs, FaReact, FaNode, FaDatabase, FaFigma, FaPython, FaEthereum } from 'react-icons/fa'
+import { SiNextdotjs, SiAdobexd , SiAdobephotoshop, SiPostgresql, SiMongodb, SiFirebase, SiSequelize, SiMongoose, SiDjango, SiFlask } from 'react-icons/si'
 const aboutData = [
   {
     title: 'skills',
@@ -15,26 +15,27 @@ const aboutData = [
           <FaJs />,
           <FaReact />,
           <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
+          <FaNode />,
+          <FaEthereum />,
+          <FaPython />,
+          <SiDjango />,
+          <SiFlask />,
         ],
       },
       {
         title: 'UI/UX Design',
         icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
       },
-    ],
-  },
-  {
-    title: 'awards',
-    info: [
       {
-        title: 'Webby Awards - Honoree',
-        stage: '2011 - 2012',
-      },
-      {
-        title: 'Adobe Design Achievement Awards - Finalist',
-        stage: '2009 - 2010',
+        title: 'Database Design',
+        icons: [
+          <FaDatabase />,
+          <SiPostgresql />,
+          <SiMongodb />,
+          <SiFirebase />,
+          <SiSequelize />,
+          <SiMongoose />,
+        ],
       },
     ],
   },
@@ -42,16 +43,24 @@ const aboutData = [
     title: 'experience',
     info: [
       {
-        title: 'UX/UI Designer - XYZ Company',
-        stage: '2012 - 2023',
+        title: 'Lobbylair - Final Project Henry Bootcamp',
+        stage: '2023',
       },
       {
-        title: 'Web Developer - ABC Agency',
-        stage: '2010 - 2012',
+        title: 'Countries App - Individual Project Henry Bootcamp',
+        stage: '2023',
       },
       {
-        title: 'Intern - DEF Corporation',
-        stage: '2008 - 2010',
+        title: 'Final Project Web Developement - CoderHouse',
+        stage: '2022',
+      },
+      {
+        title: 'Final Project Javascript - CoderHouse',
+        stage: '2022',
+      },
+      {
+        title: 'Final Project React Js - CoderHouse',
+        stage: '2022',
       },
     ],
   },
@@ -59,16 +68,20 @@ const aboutData = [
     title: 'credentials',
     info: [
       {
-        title: 'Web Development - ABC University, LA, CA',
-        stage: '2011',
+        title: 'Web Development - CoderHouse',
+        stage: '2022',
       },
       {
-        title: 'Computer Science Diploma - AV Technical Institute',
-        stage: '2009',
+        title: 'Javascript - CoderHouse',
+        stage: '2022',
       },
       {
-        title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-        stage: '2006',
+        title: 'React Js - CoderHouse',
+        stage: '2022',
+      },
+      {
+        title: 'FullStack Web Developer - Henry',
+        stage: '2023',
       },
     ],
   },
