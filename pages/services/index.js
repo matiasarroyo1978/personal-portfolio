@@ -63,9 +63,9 @@ import { fadeIn } from '../../variants';
 
 const Services = () => {
   return (
-    <div className='h-full bg-primary/30 py-36 flex items-center'>
+    <div className='h-full bg-primary/30 py-36 flex flex-col items-center'>
       <Circles />
-      <div className='container mx-auto'>
+      <div className='container mx-auto flex-grow'>
         <div className='flex flex-col-reverse lg:flex-row gap-x-8'>
           <div className='text-center lg:text-left xl:w-[30vm] flex flex-col gap-y-4 mb-4 xl:mb-0'>
             <motion.h2
@@ -113,7 +113,7 @@ const Services = () => {
           </motion.div>
         </div>
       </div>
-      <Bulb />
+      <Bulb className='mt-auto'/>
     </div>
   );
 };
