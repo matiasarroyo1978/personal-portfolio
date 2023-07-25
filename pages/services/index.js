@@ -79,7 +79,8 @@ const Services = () => {
               <span className='text-accent'>.</span>
             </motion.h2>
             <div
-              className='max-w-[450px] mx-auto lg:mx-0 text-md overflow-y-auto max-h-[400px]'
+              className='max-w-[450px] mx-auto lg:mx-0 text-md overflow-auto border border-gray-300 p-4'
+              style={{ height: 'auto', maxHeight: '400px' }}
             >
             <motion.p
               variants={fadeIn('up', 0.4)}
