@@ -19,7 +19,7 @@ const Work = () => {
               animate='show' 
               exit='hidden' 
               className='h2 xl:mt-8'>
-              My Services 
+              My Work 
               <span className='text-accent'>
                 .
               </span> 
@@ -29,7 +29,7 @@ const Work = () => {
                initial='hidden' 
                animate='show' 
                exit='hidden' 
-              className='mb-4 max-w-[400px] mx-auto lg:mx-0 '>
+              className='mb-4 max-w-[450px] mx-auto lg:mx-0 '>
               lorem ipsur  
             </motion.p>
           </div>

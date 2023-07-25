@@ -13,17 +13,17 @@ const Services = () => {
       <div className='container mx-auto'>
         <div className='flex flex-col xl:flex-row gap-x-8'>
           <div className='text-center flex xl:w-[30vm] flex-col lg:text-left mb-4 xl:mb-0'>
-            <motion.h3 
+            <motion.h2 
               variants={fadeIn('up', 0.2)} 
               initial='hidden' 
               animate='show' 
               exit='hidden' 
-              className='font-bold text-xl xl:mt-8'>
+              className='h2 xl:mt-8'>
               My Services 
               <span className='text-accent'>
                 .
               </span> 
-            </motion.h3>
+            </motion.h2>
             <motion.p 
                variants={fadeIn('up', 0.4)} 
                initial='hidden' 
