@@ -79,7 +79,7 @@ My Services{' '}
 <span className='text-accent'>.</span>
 </motion.h2>
 <div
-className='max-w-[450px] mx-auto lg:mx-0 text-md overflow-auto border border-gray-300 p-4'
+className='max-w-[450px] mx-auto lg:mx-0 text-md overflow-auto p-4'
 style={{ height: 'auto', maxHeight: '400px' }}
 >
 <motion.p
