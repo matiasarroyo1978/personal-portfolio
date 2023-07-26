@@ -87,7 +87,7 @@ variants={fadeIn('up', 0.4)}
 initial='hidden'
 animate='show'
 exit='hidden'
-className='max-w-[450px] mx-auto lg:mx-0 text-md overflow-y-auto max-h-[350px]'
+className='max-w-[450px] mx-auto lg:mx-0 text-md overflow-y:scroll max-h-[350px]'
 >
 I specialize in building responsive and user-friendly websites using the latest technologies such as HTML5,
 CSS3, React, Next.js, and JavaScript. Whether you need a simple static website or a complex web application.
