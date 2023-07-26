@@ -69,7 +69,7 @@ return (
 <div className='flex flex-col-reverse lg:flex-row gap-x-8'>
 <div className='text-center lg:text-left xl:w-[30vm] flex flex-col gap-y-4 mb-4 xl:mb-0'>
 <motion.h2
-variants={fadeIn('up', 0.2)}
+variants={fadeIn('up', 0.4)}
 initial='hidden'
 animate='show'
 exit='hidden'
@@ -83,11 +83,11 @@ className='max-w-[450px] mx-auto lg:mx-0 text-md overflow-auto p-4'
 style={{ height: 'auto', maxHeight: '400px' }}
 >
 <motion.p
-variants={fadeIn('up', 0.4)}
+variants={fadeIn('up', 0.6)}
 initial='hidden'
 animate='show'
 exit='hidden'
-className='max-w-[450px] mx-auto lg:mx-0 text-md overflow-y:scroll max-h-[350px]'
+className='max-w-[450px] mx-auto lg:mx-0 text-md font-semibold md:max-h-[350px]'
 >
 I specialize in building responsive and user-friendly websites using the latest technologies such as HTML5,
 CSS3, React, Next.js, and JavaScript. Whether you need a simple static website or a complex web application.
