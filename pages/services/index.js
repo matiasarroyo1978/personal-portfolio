@@ -53,6 +53,7 @@
 // };
 
 // export default Services;
+'use client';
 import React from 'react';
 import ServiceSlider from '../../components/ServiceSlider';
 import Bulb from '../../components/Bulb';
